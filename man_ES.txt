@@ -1,0 +1,18 @@
+La función de este sistema de programas es muy fácil y empieza por tener un cliente y un servidor, ambos bajo el lenguaje C y con una comunicación mediante Sockets. El programa “servidor.c” se encargará únicamente de recibir instrucciones provenientes de “cliente.c”, las cuales serán únicamente 4, siendo estas las de;
+
+1. Enviar un archivo:
+Consiste en que el cliente le enviará un archivo al servidor y este lo clasificará de acuerdo a su extensión. 
+•	Las categorías son: texto (.txt), programas (.c), imágenes (.jpg, .bmp, .gif, etc.), y otros (las demás extensiones). 
+•	Cuando el servidor lea el nombre del archivo, lo almacenará en una carpeta que llevará el nombre de la categoría.
+
+2. Listar archivos enviados:
+•	Consiste en que el cliente solicitara que el servidor le muestre los archivos que tienen en ese momento por categorías o todos.
+
+3. Operaciones:
+Deberá permitir que el Cliente elija alguna de estas operaciones y el servidor enviará la respuesta 
+•	Enviar una cadena de Mayúsculas a minúsculas: una cadena se envía y se convierte según el caso 
+•	Enviar una cadena de Mayúsculas a minúsculas: una cadena se envía y se convierte según el caso
+•	Sumar N números
+
+4. Historial:
+El programa deberá llevar un registro acerca del historial de la conexión, esto es, el IP de la máquina que se conectó, el nombre del usuario, e incluyendo fecha y hora.
